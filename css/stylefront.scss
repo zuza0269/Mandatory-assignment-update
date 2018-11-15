@@ -1,51 +1,11 @@
-body {
-
-}
 @keyframes spill {
-   
-    12% {
-        background-image: url(../png/1.png);
-
-    }
-    25% {
-        background-image: url(../png/2.png);
-        
-
-    }
-    37% {
-        background-image: url(../png/3.png);
-       
-
-    }
-    50% {
-        background-image: url(../png/4.png);
-        
-
-    }
-    62% {
-        background-image: url(../png/5.png);
-        
-   
-    }
-    75% {
-        background-image: url(../png/6.png);
-        
-
-    }
-    87% {
-        background-image: url(../png/7.png);
- 
-    }
-    100% {
-        background-image: url(../png/8.png);
-        opacity: 1
-   
-    }
-    }
-#still-cup {
-    height: 500px;
-    animation: spill .9s forwards ;
+    from { background-position: -34px;}
     
-    background-repeat: no-repeat;
-    opacity: 1
-}
+    to { background-position: -1080px;}
+   }
+  #still-cup {
+    background: url(../png/full2.png);
+    height: 166px;
+    width: 145px;
+    animation: spill .8s steps(7) forwards ;
+     }
